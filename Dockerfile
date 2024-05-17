@@ -1,6 +1,5 @@
 FROM bellsoft/liberica-openjdk-alpine:22.0.1-cds
 
-RUN apk add curl jq
 
 WORKDIR /home/DockerFramework
 
