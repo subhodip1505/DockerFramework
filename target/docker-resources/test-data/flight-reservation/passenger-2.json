@@ -1,0 +1,12 @@
+{
+	"firstname": "tony",
+	"lastname": "mony",
+	"email": "tony.mony@gmail.com",
+	"password": "pass123",
+	"street": "1443 south street, Panapukur",
+	"city": "Jorashanko",
+	"zip": "540024",
+	"passengerCount": "2",
+	"expectedPrice": "$1169 USD"
+	
+}

@@ -1,0 +1,12 @@
+{
+	"firstname": "Monty",
+	"lastname": "Konart",
+	"email": "Monty.Konart@gmail.com",
+	"password": "password2",
+	"street": "1873 south street, Pochabagan",
+	"city": "Jorashanko",
+	"zip": "540323",
+	"passengerCount": "4",
+	"expectedPrice": "$2338 USD"
+	
+}

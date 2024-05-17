@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [flight-reservation]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="passenger-count-4(failed)">
+    <parameter name="testDataPath" value="C:/Users/subho/eclipse-workspace/DockerFramework/src/test/resources/test-data/flight-reservation/passenger-4.json"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.flightReservations.FlightReservationTest">
+        <methods>
+          <include name="closeBrowsers"/>
+          <include name="setDriver"/>
+          <include name="setupConfig"/>
+          <include name="setParameters"/>
+          <include name="flightSelection"/>
+          <include name="flightConfirmation"/>
+          <include name="userRegistrationConfirmation"/>
+          <include name="flightSearch"/>
+          <include name="userRegistration"/>
+        </methods>
+      </class> <!-- tests.flightReservations.FlightReservationTest -->
+    </classes>
+  </test> <!-- passenger-count-4(failed) -->
+  <test thread-count="5" parallel="tests" name="passenger-count-3(failed)">
+    <parameter name="testDataPath" value="C:/Users/subho/eclipse-workspace/DockerFramework/src/test/resources/test-data/flight-reservation/passenger-3.json"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tests.flightReservations.FlightReservationTest">
+        <methods>
+          <include name="closeBrowsers"/>
+          <include name="setDriver"/>
+          <include name="setupConfig"/>
+          <include name="setParameters"/>
+          <include name="flightSelection"/>
+          <include name="flightConfirmation"/>
+          <include name="userRegistrationConfirmation"/>
+          <include name="flightSearch"/>
+          <include name="userRegistration"/>
+        </methods>
+      </class> <!-- tests.flightReservations.FlightReservationTest -->
+    </classes>
+  </test> <!-- passenger-count-3(failed) -->
+  <test thread-count="5" parallel="tests" name="passenger-count-2(failed)">
+    <parameter name="testDataPath" value="C:/Users/subho/eclipse-workspace/DockerFramework/src/test/resources/test-data/flight-reservation/passenger-2.json"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.flightReservations.FlightReservationTest">
+        <methods>
+          <include name="closeBrowsers"/>
+          <include name="setDriver"/>
+          <include name="setupConfig"/>
+          <include name="setParameters"/>
+          <include name="flightSelection"/>
+          <include name="flightConfirmation"/>
+          <include name="userRegistrationConfirmation"/>
+          <include name="userRegistration"/>
+          <include name="flightSearch"/>
+        </methods>
+      </class> <!-- tests.flightReservations.FlightReservationTest -->
+    </classes>
+  </test> <!-- passenger-count-2(failed) -->
+  <test thread-count="5" parallel="tests" name="passenger-count-1(failed)">
+    <parameter name="testDataPath" value="C:/Users/subho/eclipse-workspace/DockerFramework/src/test/resources/test-data/flight-reservation/passenger-1.json"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tests.flightReservations.FlightReservationTest">
+        <methods>
+          <include name="closeBrowsers"/>
+          <include name="setDriver"/>
+          <include name="setupConfig"/>
+          <include name="setParameters"/>
+          <include name="flightSelection"/>
+          <include name="flightConfirmation"/>
+          <include name="userRegistrationConfirmation"/>
+          <include name="flightSearch"/>
+          <include name="userRegistration"/>
+        </methods>
+      </class> <!-- tests.flightReservations.FlightReservationTest -->
+    </classes>
+  </test> <!-- passenger-count-1(failed) -->
+</suite> <!-- Failed suite [flight-reservation] -->

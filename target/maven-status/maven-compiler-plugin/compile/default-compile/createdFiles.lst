@@ -1,0 +1,8 @@
+pages\flightReservation\FlightConfirmationPage.class
+pages\flightReservation\FlightSearchPage.class
+pages\flightReservation\RegistrationConfirmation.class
+pages\flightReservation\RegistrationPage.class
+pages\vendorPortal\LoginPage.class
+pages\flightReservation\FlightsSelectionPage.class
+pages\flightReservation\AbstractClass.class
+pages\vendorPortal\DashboardPage.class

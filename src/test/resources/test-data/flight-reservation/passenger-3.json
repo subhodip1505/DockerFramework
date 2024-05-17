@@ -1,0 +1,12 @@
+{
+	"firstname": "Rommy",
+	"lastname": "Sony",
+	"email": "Rommy.Sony@gmail.com",
+	"password": "pass654",
+	"street": "1963 south street, Pochabagan",
+	"city": "Jorashanko",
+	"zip": "540223",
+	"passengerCount": "3",
+	"expectedPrice": "$1753 USD"
+	
+}

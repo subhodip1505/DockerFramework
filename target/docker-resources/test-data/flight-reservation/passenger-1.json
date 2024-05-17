@@ -1,0 +1,12 @@
+{
+	"firstname": "tommy",
+	"lastname": "johny",
+	"email": "tommy.johny@gmail.com",
+	"password": "password",
+	"street": "1453 south street, Pochapukur",
+	"city": "Jorashanko",
+	"zip": "540023",
+	"passengerCount": "1",
+	"expectedPrice": "$584 USD"
+	
+}
